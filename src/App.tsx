@@ -6,7 +6,7 @@ import Dashboard from "./pages/Dashboard";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen bg-gray-800 flex flex-col justify-center">
         <BrowserRouter>
           <h1>React-Router-ReplaceNavigationApp</h1>
           <Routes>
